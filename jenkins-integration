@@ -1,0 +1,15 @@
+The project can be automated to run on any CI/CD tools like Jenkins, Bamboo etc.
+
+Steps for Jenkins integration:
+
+1) Install jenkins on a machine
+2) Once installation is done,
+    navigate to the Jenkins Dashboard in the browser window and
+    Click on the New Item link to create a CI job.
+
+3)Select as maven project and configure the system like JDK
+4) Give the location of pom file and add the command clean test
+5) Schedule it to run periodically and set up the email notification
+
+Cheers.
+
