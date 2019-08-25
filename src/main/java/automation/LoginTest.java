@@ -15,7 +15,7 @@ public class LoginTest {
 
     @BeforeSuite
     public void doLoginTest() {
-        System.setProperty("webdriver.chrome.driver","D:\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver","chromedriver.exe");
         driver = new ChromeDriver();
         driver.get("http://cafetownsend-angular-rails.herokuapp.com/login");
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
