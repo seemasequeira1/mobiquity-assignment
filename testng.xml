@@ -1,0 +1,8 @@
+
+<suite name="Suite1" verbose="1" >
+    <test name="CreateEmployee" >
+        <classes>
+            <class name="automation.EmployeeTest" />
+        </classes>
+    </test>
+</suite>
